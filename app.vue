@@ -90,7 +90,7 @@
           <div
             class="font-medium text-[35px] transition duration-300 transform hover:bg-[rgba(255,255,255,0.1)] hover:backdrop-blur-lg hover:shadow-lg hover:-translate-y-1 rounded-[15px] flex items-center w-[180px]"
           >
-            <div class="flex flex-col md:m-2">
+            <div class="flex flex-col m-2">
               <div class="flex items-center">
                 <p class="text-gray-400 text-[22px]">姓名</p>
               </div>
@@ -100,7 +100,7 @@
           <div
             class="font-medium text-[25px] transition duration-300 transform hover:bg-[rgba(255,255,255,0.1)] hover:backdrop-blur-lg hover:shadow-lg hover:-translate-y-1 rounded-[15px] flex items-center w-[180px] mt-4"
           >
-            <div class="flex flex-col md:m-2">
+            <div class="flex flex-col m-2">
               <div class="flex items-center">
                 <p class="text-gray-400 text-[22px]">職業</p>
               </div>
@@ -110,7 +110,7 @@
           <div
             class="font-medium text-[25px] transition duration-300 transform hover:bg-[rgba(255,255,255,0.1)] hover:backdrop-blur-lg hover:shadow-lg hover:-translate-y-1 rounded-[15px] flex items-center w-[300px] mt-4"
           >
-            <div class="flex flex-col md:m-2 w-[100%]">
+            <div class="flex flex-col m-2 w-[100%]">
               <div class="flex items-center">
                 <p class="text-gray-400 text-[22px]">技能</p>
               </div>

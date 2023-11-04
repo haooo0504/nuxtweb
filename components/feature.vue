@@ -38,7 +38,7 @@
             <div class="info-pic34-text__title">省去大量時間</div>
             <div class="info-pic34-text__content">
               <div>辨識出來的文字會直接提取到輸入框</div>
-              <div>你只需按下送出鍵就可以直接與AI對話</div>
+              <div>你只需按下送出鍵就可以與AI對話</div>
               <div>省去大量打字時間 不再手動輸入</div>
             </div>
           </div>
