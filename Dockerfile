@@ -16,11 +16,17 @@ COPY . .
 # 構建應用程序
 RUN npm run build
 
-# 運行階段：使用 Nginx 鏡像
-FROM nginx:alpine
+# 運行階段：使用 Node.js 鏡像
+FROM node:alpine
 
-# 複製 Nuxt.js 應用的構建輸出到 Nginx 的服務目錄
-COPY --from=builder /app/dist /usr/share/nginx/subdomain_html
+# 設定工作目錄
+WORKDIR /app
 
-# 暴露 80 和 443 端口
-EXPOSE 80 443
+# 複製應用程式的依賴項和構建輸出
+COPY --from=builder /app .
+
+# 暴露 Nuxt.js 的默認端口
+EXPOSE 3000
+
+# 啟動應用程序
+CMD ["npm", "start"]
