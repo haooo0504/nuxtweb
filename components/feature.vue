@@ -59,11 +59,11 @@
         <div class="info-pic15-container">
           <img :src="image5" alt="" class="info-pic15-img" />
           <div class="info-pic15-text">
-            <div class="info-pic15-text__title">AI繪圖分享與交流</div>
+            <div class="info-pic15-text__title">AI繪圖分享</div>
             <div class="info-pic15-text__content">
               <div>在「分享區」發布您的AI繪製作品</div>
-              <div>與愛好者共賞、交流心得。展現技巧</div>
-              <div>透過彼此的交流一同進步！</div>
+              <div>與愛好者共賞、交流心得透過彼此</div>
+              <div>的交流一同進步！</div>
             </div>
           </div>
         </div>
@@ -88,7 +88,6 @@ onMounted(() => {
     trigger: "#section2",
     start: "top top",
     end: "+=3000",
-    markers: true,
     pin: true,
     scrub: true,
     animation: gsap

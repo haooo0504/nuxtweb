@@ -26,7 +26,9 @@
         </div>
       </div>
     </div>
-    <div class="w-[50%] flex flex-col justify-center items-center mt-20">
+    <div
+      class="md:w-[50%] w-[100%] flex flex-col justify-center items-center mt-20"
+    >
       <div class="h-[50px]">
         <div
           id="download-text"
